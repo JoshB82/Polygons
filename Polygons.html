@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="appearance.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		<title>Polygons</title>
+	</head>
+	
+	<body>
+		<canvas id="graph" width="760" height="640">Your browser does not support the HTML5 canvas tag.</canvas>
+		
+		<div id="box">
+			<h4>Polygons - By Josh Bryant - Version 1.00a</h4>
+			<h5>Double-click inside the box to the left to create some co-ordinates!</h5>
+			
+			<div class="group">
+				<h3>Options</h3>
+				<div><div id="showCoords_text">Show co-ordinates</div><input id="showCoords" type="checkbox" checked></input></div>
+				<button class="option" id="clear">Clear screen</button>
+				<button class="option" id="newCoord">Create new coordinate</button>
+				<input class="option" id="xCoord" placeholder="x" type="number"></input>
+				<input class="option" id="yCoord" placeholder="y" type="number"></input>
+				<button class="option" id="submit">OK</button>
+				<button class="option" id="cancel">Cancel</button>
+			</div>
+			
+			<div class="group">
+				<h3>Statistics</h3>
+				<div id="area">Area of polygon: 0 units<sup>2</sup></div>
+				<div id="perimeter">Perimeter of polygon: 0 units</div>
+				<div id="sumOfAngles">Sum of interior angles: 0</div>
+				<div id="mouseCoords">Current mouse co-ordinates: Mouse not on canvas!</div>
+				<div id="noCoords">Number of coordinates: 0</div>
+				<br>
+				<div id="warning">Note: Area can only be calculated if there are no line intersections</div>
+			</div>
+		</div>
+	</body>
+</html>
