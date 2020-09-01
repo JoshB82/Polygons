@@ -94,7 +94,7 @@ $(document).ready(function(){
 		
 		coords.push([$("#xCoord").val()]);
 		coords[coords.length-1].push($("#yCoord").val());
-		$("#xCoord, #yCoord, #submit").css("visibility","hidden");
+		$("#xCoord, #yCoord, #submit, #cancel").css("visibility","hidden");
 		drawPolygon();
 		$("#noCoords").text("Number of coordinates: "+coords.length);
 		$("#xCoord").val("");
