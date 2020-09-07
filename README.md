@@ -8,11 +8,11 @@ You can easily create the vertices of your polygon with a double-click and move 
 
 Let's look at an example:
 
-![Example polygon image with many vertices.](https://github.com/JoshB82/Polygons/blob/Development/Crazy Polygon.png?raw=true)
+<p align="center"><img alt="Example polygon image with many vertices." src="https://github.com/JoshB82/Polygons/blob/Development/Crazy Polygon.png"/></p>
 
 Say you have this complicated looking polygon and you need to know its area. Don't bring out the calculator - let the web browser do all the work for you!
 
-![Statistics generated for the above polygon.](https://github.com/JoshB82/Polygons/blob/Development/Crazy Polygon Statistics.png?raw=true)
+<p align="center"><img alt="Statistics generated for the above polygon." src="https://github.com/JoshB82/Polygons/blob/Development/Crazy Polygon Statistics.png"/></p>
 
 See this external website for more information on calculating the area of a polygon given the co-ordinates of its vertices:
 https://www.mathopenref.com/coordpolygonarea.html
