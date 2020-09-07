@@ -10,9 +10,11 @@ Let's look at an example:
 
 <p align="center"><img alt="Example polygon image with many vertices." src="https://github.com/JoshB82/Polygons/blob/Development/Crazy Polygon.png"/></p>
 
-Say you have this complicated looking polygon and you need to know its area. Don't bring out the calculator - let the web browser do all the work for you!
+Say you drew this complicated looking polygon and you need to know its area. Don't bring out the calculator - let the web browser do all the work for you!
 
 <p align="center"><img alt="Statistics generated for the above polygon." src="https://github.com/JoshB82/Polygons/blob/Development/Crazy Polygon Statistics.png"/></p>
+
+These statistics should have updated automatically.
 
 See this external website for more information on calculating the area of a polygon given the co-ordinates of its vertices:
 https://www.mathopenref.com/coordpolygonarea.html
