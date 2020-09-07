@@ -18,3 +18,5 @@ These statistics should have updated automatically.
 
 See this external website for more information on calculating the area of a polygon given the co-ordinates of its vertices:
 https://www.mathopenref.com/coordpolygonarea.html
+
+This project uses the MIT License.
